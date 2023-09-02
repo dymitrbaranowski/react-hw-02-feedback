@@ -26,4 +26,10 @@ export const FeedbackBtn = styled.button`
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin: auto 5rem;
+  @media (min-width: 768px) {
+    .feedbackBtn {
+      min-width: 170px;
+    }
+  }
 `;
